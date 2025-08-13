@@ -44,22 +44,18 @@ The project is designed with scalability, maintainability, and security in mind 
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/rightsimanjena/-E-Commerce-Website-with-Admin-Panel.git
 cd -E-Commerce-Website-with-Admin-Panel
-2️⃣ Create Virtual Environment & Install Dependencies 
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-3️⃣ Run Migrations
 python manage.py makemigrations
 python manage.py migrate
-4️⃣ Create Superuser
 python manage.py createsuperuser
-5️⃣ Run Development Server
 python manage.py runserver
-Visit http://127.0.0.1:8000/ in your browser.
 
-📦 Folder Structure
+
 E-Commerce-Website-with-Admin-Panel/
 │── manage.py
 │── requirements.txt
@@ -73,6 +69,9 @@ E-Commerce-Website-with-Admin-Panel/
 │   ├── views.py
 │   ├── urls.py
 │   └── ...
+
+
+
 🔒 Security
 Django's built-in authentication system
 
